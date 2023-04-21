@@ -18,7 +18,7 @@ const ProfileView = () => {
   ];
   return (
     <aside className="w-min">
-      <div className="h-full px-6 py-6 bg-black-100 rounded-xl ">
+      <div className="h-min px-6 py-6 bg-black-100 rounded-xl ">
         <div className="flex flex-col  space-y-7">
           {/* Name and Avatar profile */}
           <div className="flex space-x-4 ">

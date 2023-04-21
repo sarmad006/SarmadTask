@@ -61,7 +61,7 @@ const Highlights = () => {
   return (
     <div className="flex flex-col space-y-4">
       <span className="text-primaryText font-medium">Highlights</span>
-      <div className="flex space-x-2 flex-wrap space-y-4">
+      <div className="flex space-x-2 flex-wrap gap-y-4">
         {highlightCards?.map((item,index)=>(
              <div key={index} className="rounded-xl w-max-full  bg-black-100 px-4  pb-3 flex flex-col space-y-6 relative">
              <div className={`absolute top-0 left-0 w-28 h-32 bg-[${item.shadowColor}] bg-opacity-10 blur-xl`} style={{backgroundColor:item.shadowColor,opacity:"10%"}}>
