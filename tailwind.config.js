@@ -7,9 +7,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-    fontFamily:{
-      sans:['var(--font-sharpGrotesk)']
-    },
      colors:{
       black:{
         100:"#111111",

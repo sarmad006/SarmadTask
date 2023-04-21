@@ -5,9 +5,3 @@
 body{
   background-color: #1E1E1E;
 }
-@layer base {
-  html,
-  body {
-    @apply font-sans;
-  }
-}

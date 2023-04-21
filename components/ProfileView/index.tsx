@@ -17,7 +17,7 @@ const ProfileView = () => {
     },
   ];
   return (
-    <aside className="w-[22vw]">
+    <aside className="w-min">
       <div className="h-full px-6 py-6 bg-black-100 rounded-xl ">
         <div className="flex flex-col  space-y-7">
           {/* Name and Avatar profile */}
@@ -27,7 +27,7 @@ const ProfileView = () => {
               <span className="text-[#FFC148] font-semibold">LVL 2</span>
             </div>
             <div className="pt-4">
-              <h2 className="text-white font-semibold text-md tracking-wider">
+              <h2 className="text-white font-semibold text-xl tracking-wider">
                 dingaling.eth
               </h2>
               <span className="text-primaryText text-xs">0xadgf....jkld</span>
