@@ -3,7 +3,7 @@ import type { AppProps } from "next/app";
 import localFont from "next/font/local";
 
 const sharpGrotesk = localFont({
-  src: "../public/fonts/Sharp_Grotesk/SharpGrotesk-light20.otf",
+  src: "/fonts/Sharp_Grotesk/SharpGrotesk-light20.otf",
   variable: "--font-sharpGrotesk",
 });
 
