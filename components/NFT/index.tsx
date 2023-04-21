@@ -24,7 +24,7 @@ const NFTList = () => {
    }
 ]
   return (
-    <div className='flex space-x-2'>
+    <div className='flex space-x-2 flex-wrap gap-y-4'>
         {list?.map((item,index)=>(
            <div key={index} className='flex flex-col space-y-4 bg-black-100 p-1 rounded-xl'>
             <div className='relative'>
